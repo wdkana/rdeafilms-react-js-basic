@@ -1,7 +1,7 @@
 import "./App.css"
 import NavigationBar from "./components/NavigationBar"
 import Intro from "./components/Intro"
-import Trending from "./components/Trending"
+import DiscoverMovies from "./components/discover/movies"
 
 import "./style/landingPage.css"
 
@@ -14,7 +14,7 @@ function App() {
       </div>
 
       <div className="trending">
-        <Trending />
+        <DiscoverMovies />
       </div>
     </div>
   )
