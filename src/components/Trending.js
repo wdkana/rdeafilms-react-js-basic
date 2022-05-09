@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react"
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import duneImage from "../assets/images/trending/dune.jpg"
-import everythingImage from "../assets/images/trending/everything.jpg"
-import infiniteImage from "../assets/images/trending/infinite.jpg"
-import jokerImage from "../assets/images/trending/joker.jpg"
-import lightyearImage from "../assets/images/trending/lightyear.jpg"
-import morbiusImage from "../assets/images/trending/morbius.jpg"
 import axios from "axios"
-
-
 
 const Trending = () => {
   const [movies, setMovies] = useState([])
@@ -27,7 +19,7 @@ const Trending = () => {
     <div>
       <Container>
         <br />
-        <h1 className="text-white">TRENDING MOVIES</h1>
+        <h1 className="text-white">DISCOVERY MOVIES</h1>
         <br />
         <Row>
           {movies.map((result, index) => {
